@@ -1,0 +1,57 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:src="@drawable/logofisk_2009" 
+        android:layout_marginTop="34dp"/>
+
+    <EditText
+          android:id="@+id/editText1"
+          android:layout_width="match_parent"
+          android:layout_height="100px"
+          android:layout_below="@+id/imageView1"
+          android:layout_alignParentLeft="true"
+          android:background="#cccccc"
+          android:ems="5"
+          android:hint="Username"
+          android:textColorHint="#FFFFFF" 
+          android:layout_marginTop="74dp"/>
+  
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="match_parent"
+        android:layout_height="100px"
+        android:layout_below="@+id/editText1"
+        android:ems="5"
+        android:hint="Password"
+        android:textColorHint="#FFFFFF"
+        android:inputType="textPassword" 
+        android:background="#cccccc"/>
+
+      
+      
+
+        
+      
+      
+      <Button
+        android:id="@+id/button1"
+        android:layout_width="match_parent"
+        android:layout_height="100px"
+        android:layout_below="@+id/editText2"
+        android:background="#008080"
+        android:text="Skrá inn"
+        android:textColor="#FFFFFF"
+        android:ems="5"
+        android:layout_marginTop="24dp" />
+      
+    
+</RelativeLayout>
